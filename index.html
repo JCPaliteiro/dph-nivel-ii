@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DPH Nível II</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Divine Presence Healing® — Nível II | Beyond">
+<meta property="og:description" content="Convite exclusivo para alunos do Nível I. Turma de Outubro 2026.">
+<meta property="og:image" content="https://JCPaliteiro.github.io/dph-nivel-ii/capa.png">
+<meta property="og:url" content="https://JCPaliteiro.github.io/dph-nivel-ii/">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Divine Presence Healing® — Nível II | Beyond">
+<meta name="twitter:description" content="Convite exclusivo para alunos do Nível I. Turma de Outubro 2026.">
+<meta name="twitter:image" content="https://JCPaliteiro.github.io/dph-nivel-ii/capa.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@500;600&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --gold:#C9A063;
+    --gold-soft:#E4C98A;
+    --gold-deep:#9C7A3E;
+    --indigo:#2E2454;
+    --indigo-soft:#4A3B7A;
+    --ray:#3A5FA0;
+    --ray-deep:#28477D;
+    --cream:#FBF6EC;
+    --cream-deep:#F3EAD3;
+    --ink:#2A2018;
+    --ink-soft:#6B5D50;
+    --line:#E6D9BE;
+    --card-bg:#FFFFFF;
+    --card-bg-strong:#FFFDF7;
+    --shadow:0 16px 40px rgba(120,90,40,0.12);
+    --serif:'Cormorant Garamond', Georgia, serif;
+    --caps:'Cinzel', var(--serif);
+    --sans:'Jost', -apple-system, sans-serif;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:
+      radial-gradient(ellipse 900px 500px at 15% -10%, rgba(203,163,92,0.14), transparent 60%),
+      radial-gradient(ellipse 800px 600px at 100% 10%, rgba(58,95,160,0.10), transparent 55%),
+      radial-gradient(ellipse 1000px 700px at 50% 120%, rgba(203,163,92,0.10), transparent 60%),
+      linear-gradient(180deg, var(--cream), #FEFCF6 30%, var(--cream) 70%, var(--cream-deep));
+    color:var(--ink);
+    font-family:var(--sans);
+    line-height:1.6;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:880px;margin:0 auto;padding-inline:24px;padding-block:64px 40px}
+  .stars{
+    position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.55;
+    background-image:
+      radial-gradient(1.5px 1.5px at 10% 20%, var(--gold), transparent),
+      radial-gradient(1px 1px at 80% 15%, var(--ray), transparent),
+      radial-gradient(1.5px 1.5px at 60% 55%, var(--gold), transparent),
+      radial-gradient(1px 1px at 30% 75%, var(--ray), transparent),
+      radial-gradient(1.5px 1.5px at 92% 68%, var(--gold), transparent),
+      radial-gradient(1px 1px at 45% 90%, var(--ray), transparent);
+    background-repeat:no-repeat;
+  }
+  .eyebrow{
+    font-family:var(--caps);font-size:15.5px;letter-spacing:.22em;text-transform:uppercase;
+    color:var(--gold-deep);text-align:center;display:flex;align-items:center;justify-content:center;gap:10px;
+  }
+  .eyebrow::before,.eyebrow::after{content:"";width:28px;height:1px;background:linear-gradient(90deg,transparent,var(--gold));}
+  .eyebrow::after{background:linear-gradient(90deg,var(--gold),transparent);}
+  .badge-exclusive{
+    margin:18px auto 0;max-width:560px;text-align:center;font-family:var(--sans);font-size:16.5px;
+    color:var(--ray-deep);border:1px solid rgba(58,95,160,0.3);border-radius:999px;padding:8px 18px;
+    background:rgba(58,95,160,0.06);
+  }
+  h1.title{
+    font-family:var(--serif);font-style:italic;font-weight:500;text-align:center;
+    font-size:clamp(2.4rem,6vw,3.6rem);line-height:1.08;margin:22px 0 6px;
+    background:linear-gradient(100deg,var(--indigo),var(--gold-deep) 45%,var(--ray-deep) 80%,var(--indigo));
+    -webkit-background-clip:text;background-clip:text;color:transparent;
+    text-wrap:balance;
+  }
+  .diamond{font-style:normal;font-size:.75em;vertical-align:middle}
+  .lema{
+    text-align:center;font-family:var(--serif);font-style:italic;font-size:1.25rem;color:var(--ink-soft);
+    max-width:560px;margin:8px auto 0;text-wrap:balance;
+  }
+  section{margin-top:56px}
+  .section-head{text-align:center;margin-bottom:26px}
+  .section-head .eyebrow{margin-bottom:10px}
+  h2{
+    font-family:var(--serif);font-style:italic;font-weight:500;font-size:clamp(1.5rem,4vw,2rem);
+    text-align:center;margin:0;color:var(--indigo);text-wrap:balance;
+  }
+  .note{
+    text-align:center;font-size:15px;color:var(--gold-deep);font-family:var(--sans);letter-spacing:.02em;margin-top:6px;
+  }
+  p.lead{max-width:620px;margin:0 auto;text-align:center;color:var(--ink-soft);font-size:1rem}
+  .intro-card{
+    background:var(--card-bg);border:1px solid var(--line);border-radius:18px;padding:32px clamp(20px,4vw,40px);
+    box-shadow:var(--shadow);
+  }
+  .intro-card p{margin:0 0 14px;color:var(--ink-soft);font-size:17px;line-height:1.65}
+  .intro-card p:last-child{margin-bottom:0}
+  .intro-card strong{color:var(--gold-deep);font-weight:600}
+  .exception-note{
+    margin-top:18px;background:rgba(58,95,160,0.06);border:1px solid rgba(58,95,160,0.25);
+    border-left:3px solid var(--ray);border-radius:14px;padding:20px clamp(18px,4vw,28px);
+  }
+  .exception-note p{margin:0 0 8px;color:var(--ink-soft);font-size:15.5px;line-height:1.6;font-family:var(--sans)}
+  .exception-note p:last-child{margin-bottom:0}
+  .exception-note strong{color:var(--ray-deep);font-weight:600}
+  .program-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+  @media (max-width:640px){.program-grid{grid-template-columns:1fr}}
+  .program-card{
+    background:var(--card-bg);border:1px solid var(--line);border-radius:16px;padding:22px 24px;
+    box-shadow:var(--shadow);
+  }
+  .program-card h3{
+    font-family:var(--caps);font-size:16px;letter-spacing:.12em;text-transform:uppercase;color:var(--ray-deep);
+    margin:0 0 12px;
+  }
+  .program-card ul{margin:0;padding-left:18px;color:var(--ink-soft);font-size:16px}
+  .program-card li{margin-bottom:7px}
+  .program-card li:last-child{margin-bottom:0}
+  table.schedule{width:100%;border-collapse:collapse;margin-top:8px}
+  table.schedule th{
+    font-family:var(--caps);font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-deep);
+    text-align:left;padding:0 12px 10px;border-bottom:1px solid var(--line);font-weight:500;
+  }
+  table.schedule td{padding:14px 12px;border-bottom:1px solid var(--line);font-size:16px;color:var(--ink)}
+  table.schedule tr:last-child td{border-bottom:none}
+  table.schedule td.dur{color:var(--gold-deep);font-variant-numeric:tabular-nums;white-space:nowrap}
+  .total-row{display:flex;justify-content:space-between;align-items:center;margin-top:16px;padding-top:16px;border-top:1px solid var(--line)}
+  .total-row .label{font-family:var(--caps);font-size:15px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink-soft)}
+  .total-row .value{font-family:var(--serif);font-style:italic;font-size:1.5rem;color:var(--indigo)}
+  .format-line{text-align:center;margin-top:18px;font-size:15.5px;color:var(--ink-soft)}
+  .pricing{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  @media (max-width:820px){.pricing{grid-template-columns:1fr 1fr}}
+  @media (max-width:480px){.pricing{grid-template-columns:1fr}}
+  .price-card{
+    background:var(--card-bg);border:1px solid var(--line);border-radius:16px;padding:24px 16px;text-align:center;
+    position:relative;box-shadow:var(--shadow);
+  }
+  .price-card.featured{border-color:var(--gold);background:var(--card-bg-strong);transform:translateY(-4px)}
+  .price-card .tag{
+    font-family:var(--caps);font-size:13.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ray-deep);
+    margin-bottom:10px;
+  }
+  .price-card .amount{font-family:var(--serif);font-style:italic;font-size:2.1rem;color:var(--indigo)}
+  .price-card .save{font-size:15.5px;color:var(--gold-deep);margin-top:4px;font-weight:600}
+  .price-card .until{font-size:14.5px;color:var(--ink-soft);margin-top:10px;opacity:.9}
+  .fine-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:20px}
+  @media (max-width:640px){.fine-grid{grid-template-columns:1fr}}
+  .fine-card{background:var(--card-bg);border:1px solid var(--line);border-radius:14px;padding:18px 20px;box-shadow:var(--shadow)}
+  .fine-card h4{font-family:var(--caps);font-size:14.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-deep);margin:0 0 8px}
+  .fine-card p{margin:0;font-size:15px;color:var(--ink-soft)}
+  .bonus-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+  .bonus-list li{
+    display:flex;gap:14px;align-items:flex-start;background:var(--card-bg);border:1px solid var(--line);
+    border-radius:14px;padding:16px 18px;font-size:16px;color:var(--ink-soft);box-shadow:var(--shadow);
+  }
+  .bonus-list .num{
+    font-family:var(--serif);font-style:italic;color:var(--gold-deep);font-size:1.2rem;line-height:1;flex-shrink:0;
+  }
+  .mentors{text-align:center;color:var(--ink-soft);font-size:16px;max-width:640px;margin:0 auto;line-height:1.9}
+  .mentors b{color:var(--indigo);font-weight:500}
+  .benefits{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;max-width:680px;margin:0 auto}
+  @media (max-width:640px){.benefits{grid-template-columns:1fr}}
+  .benefits li{list-style:none;color:var(--ink-soft);font-size:15.5px;padding-left:20px;position:relative}
+  .benefits li::before{content:"✦";position:absolute;left:0;color:var(--gold);font-size:11px;top:4px}
+  .cta{
+    text-align:center;background:var(--cream-deep);border:1px solid var(--gold-soft);border-radius:22px;
+    padding:44px clamp(20px,5vw,52px);box-shadow:var(--shadow);
+  }
+  .cta h2{margin-bottom:12px}
+  .cta p.lead{margin-bottom:26px}
+  .cta-btn{
+    display:inline-flex;align-items:center;gap:10px;font-family:var(--caps);font-size:16px;letter-spacing:.12em;
+    text-transform:uppercase;color:#FFFDF7;background:linear-gradient(100deg,var(--indigo-soft),var(--indigo));
+    padding:16px 34px;border-radius:999px;text-decoration:none;box-shadow:0 10px 30px rgba(46,36,84,0.25);
+  }
+  .cta .vagas{margin-top:16px;font-size:15.5px;color:var(--ray-deep)}
+  footer{margin-top:60px;text-align:center;padding-top:30px;border-top:1px solid var(--line)}
+  footer .sig{font-family:var(--serif);font-style:italic;font-size:1.2rem;color:var(--gold-deep)}
+  footer .meta{margin-top:10px;font-size:15px;color:var(--ink-soft);opacity:.8;max-width:480px;margin-inline:auto}
+  ::selection{background:rgba(203,163,92,0.35)}
+</style>
+</head>
+<body>
+
+<div class="stars"></div>
+<div class="wrap">
+
+  <div class="eyebrow">BEYOND · ACADEMIA DE EVOLUÇÃO DIVINA</div>
+  <div class="badge-exclusive">✨ Convite exclusivo — para quem já foi aluno do Nível I</div>
+  <h1 class="title">Divine Presence Healing<sup style="font-size:.5em">®</sup><br>Nível II</h1>
+  <p class="lema">"CURAR é Ser um Canal através do qual Deus Manifesta a Sua Vontade Total!"</p>
+
+  <section id="convite">
+    <div class="intro-card">
+      <p><strong>Já deste o primeiro passo.</strong> Se estás a ler isto, é porque caminhaste comigo pelo Nível I de Divine Presence Healing® — e o teu Campo já não é o mesmo desde então.</p>
+      <p>O Nível II não é para todos. É um convite direto e exclusivo a quem já foi Iniciado, para aprofundar o que começou a abrir-se em ti: mais Presença, mais Canal, mais Serviço.</p>
+      <p>A Luz é infinita, e nunca pára de crescer. Queres continuar a fazer crescer a Luz em ti e ao teu redor? Então não deixes de descobrir uma etapa mais no caminho sagrado que é a Divine Presence Healing!</p>
+    </div>
+    <div class="exception-note">
+      <p><strong>Ainda assim, se ainda não tens o Nível I</strong> e gostarias de fazer o Nível II, fala comigo. Há uma forma de te poderes juntar à primeira Turma de DPH 2.</p>
+      <p>Tenho uma proposta para que possas acelerar o teu processo.</p>
+    </div>
+  </section>
+
+  <section id="o-que-e">
+    <div class="section-head">
+      <div class="eyebrow">O Caminho Continua</div>
+      <h2>O que é este Nível II</h2>
+    </div>
+    <p class="lead">Divine Presence Healing® é um sistema de cura espiritual cósmica holográfica, totalmente canalizado pelos Mestres da Luz Divina, fruto de mais de 30 anos de pesquisa. O Nível II aprofunda o que foi Iniciado no Nível I, trazendo novos entendimentos e técnicas a esta dimensão terrena.</p>
+    <p class="lead">Identificas-te com o Sistema de Cura Divine Presence Healing? Desejas desenvolver-te ainda mais como um Canal de Cura ao serviço de Deus? Então este Nível II é para ti!</p>
+  </section>
+
+  <section id="programa">
+    <div class="section-head">
+      <div class="eyebrow">Estrutura</div>
+      <h2>Programa Resumo</h2>
+      <p class="note">Este programa é um resumo — o Curso é totalmente canalizado, pelo que o conteúdo exato revela-se no momento.</p>
+    </div>
+    <div class="program-grid">
+      <div class="program-card">
+        <h3>Trabalho de Cura e Libertação</h3>
+        <ul>
+          <li>Sessões de DPH® em Grupo</li>
+          <li>Sessões de Mentoria Avançada para cada Aluno</li>
+          <li>Curas, Libertações, Limpezas e Purificações — espiritual, etérica, mental, emocional, astral, física</li>
+          <li>Resgate e Elevação de corpos holográficos e multidimensionais</li>
+          <li>Dissolução de carmas e término de ciclos cármicos</li>
+          <li>Cura de vidas passadas, futuras e paralelas</li>
+        </ul>
+      </div>
+      <div class="program-card">
+        <h3>Ascensão Vibracional</h3>
+        <ul>
+          <li>Maior Abertura, Ativação e Expansão Holográfica da Aura, Chakras e Chama Trina</li>
+          <li>Alinhamento da Linha do Hara</li>
+          <li>Limpeza e libertação dos 3 Haras</li>
+          <li>Ativação de Fitas do DNA acima da 22ª</li>
+          <li>Ascensão para a 7D e além</li>
+        </ul>
+      </div>
+      <div class="program-card">
+        <h3>Componentes Adicionais</h3>
+        <ul>
+          <li>Maiores Proteções de si, da casa e seus espaços e posses e da família</li>
+          <li>Maior Conexão com a Presença de Deus</li>
+          <li>Conversas e Partilhas Respeitosas</li>
+          <li>Estudo de Casos</li>
+          <li>Dicas para a prática Clínica</li>
+          <li>Ensinamentos Avançados sobre Cura Cósmica Holográfica</li>
+          <li>Exercícios práticos</li>
+          <li>Códigos de Luz · Bênçãos Sagradas</li>
+          <li>Upgrade da Equipa de Cura Divina</li>
+          <li>Meditações profundas na Presença de Deus</li>
+        </ul>
+      </div>
+      <div class="program-card">
+        <h3>Iniciações do Nível II da Divine Presence Healing®</h3>
+        <ul>
+          <li>Iniciação às Esferas Sagradas</li>
+          <li>Iniciação à Presença Cósmica</li>
+          <li>Iniciação ao Útero da Mãe Divina</li>
+          <li>Iniciação à Mente de Deus</li>
+          <li>Iniciação Nível II no Discipulado na Hierarquia da Luz Divina</li>
+          <li>Iniciação Nível II da Divine Presence Healing®</li>
+          <li>Iniciação de Conexão com o Paraíso</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="mentores">
+    <div class="section-head">
+      <div class="eyebrow">Chancela Espiritual</div>
+      <h2>Mentores de Luz Divina</h2>
+    </div>
+    <p class="mentors">
+      <b>Mãe Maria</b>, <b>Mestre Sananda</b>, <b>Mestre Saint Germain</b>,
+      <b>Sanat Kumara</b> e <b>Mestre Adama</b>, <b>Conselho Cármico</b>,
+      Mestres, Anjos, Arcanjos e Elohins dos <b>7 Raios Divinos</b>,
+      <b>Mãe Terra Gaia</b> e <b>Mãe Cósmica</b>, <b>Maha Chohan</b>,
+      Conselho Cósmico de Cura pela Presença Divina, <b>Conselhos do Paraíso</b>.
+    </p>
+  </section>
+
+  <section id="datas">
+    <div class="section-head">
+      <div class="eyebrow">Calendário</div>
+      <h2>Datas e Horários</h2>
+    </div>
+    <div class="intro-card">
+      <table class="schedule">
+        <thead>
+          <tr><th>Aula</th><th>Data</th><th>Horário</th><th>Duração</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Aula 1</td><td>2 de Outubro · Sexta-feira</td><td>19h30 – 23h00</td><td class="dur">3h30</td></tr>
+          <tr><td>Aula 2</td><td>6 de Outubro · Terça-feira</td><td>19h30 – 23h00</td><td class="dur">3h30</td></tr>
+          <tr><td>Aula 3</td><td>9 de Outubro · Sexta-feira</td><td>19h30 – 23h00</td><td class="dur">3h30</td></tr>
+          <tr><td>Aula 4</td><td>13 de Outubro · Terça-feira</td><td>19h30 – 23h00</td><td class="dur">3h30</td></tr>
+          <tr><td>Aula 5</td><td>17 de Outubro · Sábado</td><td>14h30 – 20h30</td><td class="dur">6h</td></tr>
+        </tbody>
+      </table>
+      <div class="total-row">
+        <span class="label">Duração Total</span>
+        <span class="value">20 Horas</span>
+      </div>
+      <p class="format-line">Horários de Lisboa · Totalmente online via Zoom · participa de qualquer parte do mundo</p>
+    </div>
+  </section>
+
+  <section id="precos">
+    <div class="section-head">
+      <div class="eyebrow">Investimento</div>
+      <h2>Preços</h2>
+    </div>
+    <div class="pricing">
+      <div class="price-card featured">
+        <div class="tag">Convicção</div>
+        <div class="amount">240€</div>
+        <div class="save">-40%</div>
+        <div class="until">até amanhã · 19 Set</div>
+      </div>
+      <div class="price-card">
+        <div class="tag">Ação Rápida</div>
+        <div class="amount">280€</div>
+        <div class="save">-30%</div>
+        <div class="until">até terça · 22 Set</div>
+      </div>
+      <div class="price-card">
+        <div class="tag">Early Bird</div>
+        <div class="amount">320€</div>
+        <div class="save">-20%</div>
+        <div class="until">até sexta · 25 Set</div>
+      </div>
+      <div class="price-card">
+        <div class="tag">Preço Normal</div>
+        <div class="amount">400€</div>
+        <div class="save">&nbsp;</div>
+        <div class="until">a partir de 26 Set</div>
+      </div>
+    </div>
+    <div class="fine-grid">
+      <div class="fine-card">
+        <h4>Parcelamento</h4>
+        <p>2 mensalidades (aplica-se apenas ao desconto Early Bird ou preço normal) ou 3 mensalidades (preço normal aplicado).</p>
+      </div>
+      <div class="fine-card">
+        <h4>Vem com Amig@s</h4>
+        <p>Traz 1 amigo: paga metade. 2 amigos: entrada gratuita.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="bonus">
+    <div class="section-head">
+      <div class="eyebrow">Oferta</div>
+      <h2>Bónus Incluídos</h2>
+    </div>
+    <ul class="bonus-list">
+      <li><span class="num">01</span> Uma LIVE de 3h de apoio, 1 mês após a conclusão do curso</li>
+      <li><span class="num">02</span> Desconto de 50% em 2 Sessões individuais (Divine Presence Healing® ou Divine Light Mentoring®) — válido 6 meses</li>
+      <li><span class="num">03</span> Grupo de Chat de acompanhamento durante o curso</li>
+      <li><span class="num">04</span> Integração na Comunidade de Alunos dos Mestres da Luz Divina</li>
+      <li><span class="num">05</span> Possibilidade de ingressar num Programa Avançado de Evolução com os Mestres</li>
+    </ul>
+  </section>
+
+  <section id="beneficios">
+    <div class="section-head">
+      <div class="eyebrow">Frutos</div>
+      <h2>O que Vais Receber</h2>
+    </div>
+    <ul class="benefits">
+      <li>Certificação com Diploma em Divine Presence Healing® — Nível II</li>
+      <li>Aprofundamento das técnicas de cura espiritual do Nível I</li>
+      <li>Nova Ativação como Canal de Cura da Hierarquia de Luz Divina</li>
+      <li>Cura, Limpezas e Libertações mais profundas</li>
+      <li>Conexão renovada com o Eu Divino e os Mestres</li>
+      <li>Maior Libertação da Matriz das ilusões de separação</li>
+      <li>Mais Clareza, Discernimento, Paz e Serenidade</li>
+      <li>Purificação de canais interdimensionais</li>
+      <li>Abertura de novos Caminhos de Luz</li>
+      <li>Ascensão holográfica e multidimensional</li>
+    </ul>
+  </section>
+
+  <section id="cta">
+    <div class="cta">
+      <div class="eyebrow">O Próximo Passo</div>
+      <h2>Garante o Teu Lugar</h2>
+      <p class="lead">As vagas são limitadas a quem já caminhou pelo Nível I. Se sentes o chamado para aprofundar, o teu lugar está guardado.</p>
+      <a class="cta-btn" href="https://wa.me/351933416434?text=Ol%C3%A1%20Jo%C3%A3o%2C%20quero%20garantir%20o%20meu%20lugar%20no%20Curso%20DPH%20N%C3%ADvel%20II!" target="_blank" rel="noopener">Falar com João no WhatsApp</a>
+      <p class="vagas">Instagram @joao_carlos_paliteiro · Facebook joaocarlospaliteiro</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="sig">Com Amor, João Carlos</div>
+  </footer>
+
+</div>
+
+</body>
+</html>
